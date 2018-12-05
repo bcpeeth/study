@@ -1,4 +1,5 @@
 # app1
+simple boilerplate project for introduction to Vue.js
 
 ## Project setup
 ```
