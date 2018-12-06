@@ -1,9 +1,11 @@
 @import './scss/normalize.scss';
+@import './scss/button.scss';
+@import './scss/image.scss';
 
 body, html{
     height: 100%;
 }
-.center{
-    width: 800px;
-    margin: 100px auto 0;
-}
+
+$vue-blue: #32485F;
+$vue-green: #00C185;
+
