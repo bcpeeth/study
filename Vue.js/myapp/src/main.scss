@@ -2,8 +2,22 @@
 
 body, html{
     height: 100%;
+    // background-image: url(./img/hero.jpg);
 }
 .center{
-    width: 800px;
-    margin: 100px auto 0;
+    height: 80vh;
+    width: 100%;
+    font-size: 24px;
+}
+
+.image {
+    height: 80vh;
+    width: 100%;
+    object-fit: cover;  
+
+    // background-image: url(./img/hero.jpg);
+}
+.btn {
+    height: 20vh;
+    width: 50%;
 }
