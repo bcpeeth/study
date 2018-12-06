@@ -1,0 +1,11 @@
+
+
+.left, .right{
+    cursor: pointer;
+    width:50%;
+    float: left;
+    height: 20vh;
+    img {
+        max-height: 20vh;
+    }
+}

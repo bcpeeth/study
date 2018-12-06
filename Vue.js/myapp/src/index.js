@@ -1,16 +1,21 @@
 require('./main.scss');
 // import App from './App.vue'
 import Vue from 'vue';
-// import ImagePlaceholder from './components/ImagePlaceholder';
-// import ImageChangeButton from './components/ImageChangeButton';
+import ImagePlaceholder from './components/ImagePlaceholder.vue';
+import ImageButton from './components/ImageButton.vue';
+import App from './components/app.vue';
 
 let app = new Vue({
     el: '#app',
-    data: {
-        text: 'Hello from Vue'
+    components: {
+        'app':App
     },
-    template: '<div class="center">{{ text }}</div>',
-    
+    data: {
+        // text: 'Hello from Vue',
+        // image: '../dist/img/4.jpg'       
+    },
+    // template: '<div class="center">{{ text }}</div>',
+    // template: '<div class="button"></div>',
 });
 
 
